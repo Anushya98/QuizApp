@@ -1,0 +1,183 @@
+.sub-page-container {
+    /* Add styling for the container */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.images-section {
+    /* Add styling for the images section */
+    margin-top: 20px;
+}
+
+.sub-image {
+    /* Add styling for each image */
+    width: 100%;
+    max-width: 300px;
+    max-height: 200px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    /* Add a gap between images */
+}
+
+.translate-container {
+    width: max-content;
+}
+
+.language-options li {
+    cursor: pointer;
+    padding: 8px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.language-options li:hover {
+    background-color: #f0f0f0;
+}
+
+.language-options li.selected {
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+
+.translate-container button {
+    cursor: pointer;
+}
+
+.facts-button {
+    background-color: #99192c;
+    border: 2px solid #680305;
+    border-radius: 5px;
+    color: #fff;
+    margin: 30px 60px;
+    padding: 10px 15px;
+    /* font-size: 18px; */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.facts-button:hover {
+    background-color: #ce5187;
+    /* Darker blue color on hover */
+}
+
+.take-quiz-button {
+    background-color: #192399;
+    border: 2px solid #141656;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 15px;
+    /* font-size: 18px; */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.take-quiz-button:hover {
+    background-color: #5351ce;
+    /* Darker blue color on hover */
+}
+
+/* Quiz Options Styles */
+.quiz-options {
+    margin-top: 20px;
+    margin-left: 100px;
+    /* text-align: center; */
+}
+
+
+.quiz-filter {
+    /*display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 10px;
+    /* width: 150px; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+
+}
+
+.quiz-filter-level {
+    margin-top: 10px;
+
+}
+
+.quiz-filter-level select {
+    /* width: 0px; */
+    /* height: px; */
+    border: 2px solid #6a8cfc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.quiz-filter-number {
+    margin-top: 10px;
+}
+
+.quiz-filter-number input {
+    width: 50px;
+    /* height: 22px; */
+    border: 2px solid #6a8cfc;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* Difficulty Level Styles */
+span {
+    margin-right: 10px;
+}
+
+select {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* Start Quiz Button Styles */
+.start-quiz-button {
+    background-color: #2ecc71;
+    border: 2px solid #1a9324;
+    color: #fff;
+    padding: 10px 20px;
+    /* border: none; */
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Add color based on difficulty level */
+.option-easy {
+    color: #019c41;
+}
+
+.option-medium {
+    color: #ff6a00;
+}
+
+.option-hard {
+    color: #e20b07;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.correct-option {
+    color: green;
+}
+
+.incorrect-option {
+    color: red;
+}
+
+.msqs li ol li {
+    cursor: pointer;
+}

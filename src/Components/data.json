@@ -1,0 +1,155 @@
+{
+    "React": {
+        "title": "React",
+        "defenition": [
+            "React is a JavaScript library for building user interfaces or UI components. It allows developers to create reusable UI components and manage the state of an application efficiently"
+        ],
+        "keyFeatures": [
+            "Declarative: React makes it easy to reason about the application state and how the UI should look.",
+            "Component-Based: UIs are broken down into components, making them reusable and maintainable.",
+            "Virtual DOM: React uses a virtual DOM to improve rendering performance."
+        ],
+        "contents": {
+            "english": "React provides a rich set of tools for building interactive user interfaces. Developers can create components that encapsulate the behavior and appearance of parts of the UI, making it easier to manage and maintain large applications",
+            "tamil": "ரியாக்ட் இயக்கத்திற்கு கருவிகள் உருவாக்க வழி மக்களுக்கு விரும்பத்தக்க உருவாக்கங்களை வழங்குகின்றது. பரிசோதனையை செய்யும்போது, பயனர்கள் யூஐஐயின் பாகங்களின் நடவடிக்கை மற்றும் பராமரிப்புகளை அடிப்படையாக உள்ளடக்கலாம்",
+            "malayalam": "റീയാക്ട്, ഇന്റരാക്ടീവ് ഉപയോക്താവ്യാപാര സഞ്ചയത്തിനായി ശരിക്കും ഉപയോക്താവിനെ അനുകരണപ്രദമായ യൂആയ്‌ഐ ഘടനയുള്ള ഉപയോക്താവ്യാപാര സഞ്ചയങ്ങൾ നിർമ്മിക്കാൻ ശക്തമായ ഉപകരണങ്ങൾ നൽകുന്നു. ഡെവലപ്പേഴ്സുകൾ UI-യുടെ ഭാഗങ്ങളുടെ പ്രവർത്തനവും രൂപവും എല്ലാം എളുപ്പത്തിൽ നിര്‍വഹിക്കുകയും വലിയ അപ്ലിക്കേഷനുകളെ നിര്‍വഹിക്കുകയും ചെയ്യുന്നു",
+            "kannada": "ರಿಯಾಕ್ಟ್, ಇಂಟರ್ಯಾಕ್ಟಿವ್ ಬಳಸಿಕೊಳ್ಳಲು ಹಿಡಿತವಾದ ಉಪಯೋಕ್ತಾವಾದ ಒಂದು ಜಾವಾಸ್ಕ್ರಿಪ್ಟ್ ಲೈಬ್ರರಿ. ಡೆವೆಲಪರ್ಸ್ ಯೂಆಐ ಘಟನೆ ಮತ್ತು ರೂಪದ ಭಾಗಗಳ ವರ್ತನೆಯನ್ನು ಎನ್ಕೆಪಸುಲೇಟ್ ಮಾಡಲು ಹೊಂದಿದೆ",
+            "hindi": "रियैक्ट उपयोगकर्ता इंटरफ़ेस या यूआई संघटन के लिए एक जावास्क्रिप्ट लाइब्रेरी है। डेवेलपर्स किसी भी यूआई के भाग के व्यवहार और उपस्थिति को समाहित करने वाले कंपोनेंट बना सकते हैं, जिससे बड़े अनुप्रयोगों को प्रबंधित और बनाए रखना आसान हो जाता है।"
+        },
+        "images": [
+            "https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png",
+            "https://i.ytimg.com/vi/LlvBzyy-558/maxresdefault.jpg"
+        ],
+        "videoUrl": "https://www.youtube.com/embed/your-react-video-id",
+        "msqs": [
+            {
+                "question": "What is React?",
+                "options": [
+                    "A programming language",
+                    "A database management system",
+                    "A JavaScript library for building user interfaces or UI components",
+                    "A styling framework"
+                ],
+                "correct_answer": "A JavaScript library for building user interfaces or UI components"
+            }
+        ],
+        "quizQuestions": [
+            {
+                "serial_number": 1,
+                "question": "What is the capital of France?",
+                "question_photo": "https://cdn.pixabay.com/photo/2018/04/25/09/26/eiffel-tower-3349075_640.jpg",
+                "options": [
+                    "Paris",
+                    "London",
+                    "Berlin",
+                    "Madrid"
+                ],
+                "correct_answer": "Paris",
+                "topic": "Geography",
+                "difficulty_level": "easy",
+                "explanation": "Paris is the capital city of France.",
+                "hint": "It's famous for the Eiffel Tower.",
+                "remarks": "Common knowledge question, suitable for all ages."
+            },
+            {
+                "serial_number": 2,
+                "question": "What is the chemical formula for water?",
+                "question_photo": "url_to_photo_of_water_molecule.jpg",
+                "options": [
+                    "H2O",
+                    "CO2",
+                    "O2",
+                    "H2SO4"
+                ],
+                "correct_answer": "H2O",
+                "topic": "Chemistry",
+                "difficulty_level": "medium",
+                "explanation": "Water consists of two hydrogen atoms bonded to one oxygen atom.",
+                "hint": "It's a very common substance essential for life.",
+                "remarks": "Basic chemistry question."
+            }
+        ],
+        "facts": [
+            {
+                "id": 1,
+                "fact": "Declarative Views",
+                "description": "React allows developers to create user interfaces using a declarative syntax, making it easier to understand and debug code."
+            },
+            {
+                "id": 2,
+                "fact": "Component-Based Architecture",
+                "description": "React follows a component-based architecture where UIs are built using independent and reusable components, promoting code reusability and maintainability."
+            },
+            {
+                "id": 3,
+                "fact": "Virtual DOM",
+                "description": "React uses a virtual DOM to optimize the rendering process. It creates a lightweight in-memory representation of the actual DOM, which helps in efficient updates and improves performance."
+            },
+            {
+                "id": 4,
+                "fact": "JSX (JavaScript XML)",
+                "description": "JSX is a syntax extension for JavaScript recommended by React. It allows developers to write HTML-like code in their JavaScript files, making the code more readable and expressive."
+            },
+            {
+                "id": 5,
+                "fact": "Unidirectional Data Flow",
+                "description": "React follows a unidirectional data flow, meaning that the data flows in one direction—from parent components to child components. This simplifies the debugging process and helps in maintaining a predictable state."
+            }
+        ],
+        "importanceLevel": 8,
+        "relevantTopics": [
+            "/topicspage/JavaScript",
+            "/topicspage/CSS"
+        ]
+    },
+    "JavaScript": {
+        "title": "JavaScript",
+        "definitions": [
+            "JavaScript is a programming language that enables interactive web pages. It is an essential technology for front-end development and provides dynamic behavior to websites."
+        ],
+        "keyFeatures": [
+            "Dynamic: JavaScript supports dynamic typing and is suitable for object-oriented programming.",
+            "Versatile: Used for both client-side and server-side development.",
+            "Interactivity: Enables interactive elements on websites."
+        ],
+        "contents": {
+            "english": "JavaScript allows developers to enhance user interfaces, handle asynchronous operations, and create interactive features on websites.",
+            "tamil": "ஜாவாஸ்கிரிப்ட் படங்களில் பயனர் இடைமுகத்தை மேம்படுத்த, இடைநிறுவேல் செயல்களை நிர்வகிக்க, மற்றும் வலுக்குதல் நிரல்களை உருவாக்க அனுமதிக்கின்றது.",
+            "malayalam": "ജാവാസ്ക്രിപ്റ്റ് പ്രോഗ്രാമിങ്ങ് ഭാഷ ഉപയോക്താക്കളെ ഉപയോക്താ ഇടപാടുകൾ പെരുക്കാൻ, അസിൻക്രണസ് പ്രവർത്തനങ്ങൾ കൈകാര്യം ചെയ്യാൻ, ഒരുപാട് സംവാദമർഹമായ സൌകര്യങ്ങൾ സൃഷ്ടിക്കാൻ അനുവാദമാകുന്നു.",
+            "kannada": "ಜಾವಾಸ್ಕ್ರಿಪ್ಟ್ ಅನ್ನು ಬಳಸುವುದರಿಂದ ಅಭಿವೃದ್ಧಿಪಡಿಸಿದಾಗ, ಬೇರೆಡೆಗಳಲ್ಲಿ ಕೈಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸಲು, ಅಸಿಂಕ್ರೋನಸ್ ಪ್ರವೃತ್ತಿಗಳನ್ನು ನಿರ್ವಹಿಸಲು ಮತ್ತು ವೆಬ್‌ಸೈಟ್‌ಗಳ ಮೇಲೆ ಪರಸ್ಪರ ಚಲನವನ್ನು ಸೃಷ್ಟಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.",
+            "hindi": "जावास्क्रिप्ट डेवेलपर्स को यूजर इंटरफ़ेस को बेहतर बनाने, असिंक्रोनस प्रक्रियाओं को संभालने, और वेबसाइट्स पर इंटरएक्टिव फ़ीचर्स बनाने की संभावना प्रदान करता है."
+        },
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNt_g-7y9BnALvcj6SpY0AqMz6OWKhwDco0g&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFfjRTY6j77jLboYQDcQrkAalN7JutqbXclQ&usqp=CAU"
+        ],
+        "videoUrl": "https://www.youtube.com/embed/your-video-id",
+        "msqs": [
+            {
+                "question": "What is the purpose of JavaScript?",
+                "options": [
+                    "A. Styling web pages",
+                    "B. Creating interactive web pages (Correct Answer)",
+                    "C. Managing databases",
+                    "D. Server-side scripting"
+                ]
+            }
+        ],
+        "quizQuestions": [
+            {
+                "question": "What is the purpose of JavaScript?",
+                "options": [
+                    "A. Styling web pages",
+                    "B. Creating interactive web page",
+                    "C. Managing databases",
+                    "D. Server-side scripting"
+                ]
+            }
+        ],
+        "importanceLevel": 9,
+        "relevantTopics": [
+            "/topicspage/CSS",
+            "/topicspage/React"
+        ]
+    }
+}

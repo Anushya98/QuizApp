@@ -1,0 +1,182 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+    height: 100vh;
+}
+
+.form {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* Adjusted width for responsiveness */
+    max-width: 400px;
+    height: 500px;
+    padding: 40px;
+    /* margin-top: 3%;
+    margin-left: 32.5%; */
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.form::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(0deg, transparent, #d3c1f7, #d3c1f7);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+
+.form::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(0deg, transparent, #d3c1f7, #d3c1f7);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.login-box {
+    position: absolute;
+    inset: 2px;
+    border-radius: 10px;
+    background: #f6f6f6;
+    border: 1px black;
+    z-index: 10;
+    padding: 25px 0px;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.login-box h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box .input {
+    width: 100%;
+    /* padding: 10px; */
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+    border: none;
+    /* border-bottom: 1px solid #fff; */
+    outline: none;
+    background: transparent;
+
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* padding: 10px 0; */
+    font-size: 16px;
+    color: #000;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input#name_field {
+    color: black;
+}
+
+input#email_field {
+    color: black;
+}
+
+input#password_field {
+    color: black;
+}
+
+input#role_field {
+    color: black;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: black;
+    font-size: 16px;
+}
+
+.form .btn {
+    background-color: #d3c1f7;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    text-align: center;
+    color: #1c1c1c;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form .btn:hover {
+    opacity: 0.8;
+}
+
+.form .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: #000 !important;
+}
+
+.form .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #000 !important;
+}
+
+.form .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #000 !important;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Adjust styles for screens with a maximum width of 600px */
+    .form {
+        width: 80%;
+        height: 400px;
+    }
+
+    .login-container{
+        padding:0 20px;
+        /* height: auto; */
+    }
+    .login-box{
+        padding: 50px;
+    }
+}

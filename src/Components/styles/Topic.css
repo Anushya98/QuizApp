@@ -1,0 +1,102 @@
+.container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    text-align: center;
+    padding: 100px;
+}
+
+.label {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input {
+    flex: 1;
+    padding: 12px;
+    margin-right: 10px;
+    /* Add margin to separate input and button */
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.button {
+    padding: 12px 24px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+.button:active {
+    background: #004080;
+}
+
+/* Media query for smaller screens (phones and iPads) */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        /* Reduce padding for smaller screens */
+    }
+
+    .searchBox {
+        padding: 50px;
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+    .input {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+/* NoTopicAvailable.css */
+.no-topic-container {
+    text-align: center;
+    margin-top: 50px;
+    /* Adjust as needed to center vertically */
+}
+
+.generate-button,
+.request-button {
+    margin: 10px;
+    /* Adjust as needed to add space between buttons */
+    padding: 12px 20px;
+    /* Adjust as needed to change button size */
+    font-size: 16px;
+    /* Adjust as needed to change font size */
+    background-color: #4CAF50;
+    /* Change to your desired color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.generate-button:hover,
+.request-button:hover {
+    background-color: #45a049;
+    /* Change to your desired hover color */
+}
